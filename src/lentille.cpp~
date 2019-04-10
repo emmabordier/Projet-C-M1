@@ -1,0 +1,18 @@
+#include "GravLens.h"
+#include <iostream>
+#include <math>
+
+using namespace std;
+
+void lentille::initialise( double masse, double distance, double abscisse, double ordonnée))
+{
+  Mlentille=masse ; Dlentille=distance;
+  Xlentille=abcisse; Ylentille=ordonnée;
+}
+void lentille::affiche()
+{
+  cout << "masse_lentille=" << Mlentille << endl;
+  cout << "distance_obs_lentille="<< Dlentille<< endl;
+  cout << "abscisse_lentille="<< Xlentille << endl;
+  cout << "ordonnée_lentille="<< Ylentille << endl;
+}

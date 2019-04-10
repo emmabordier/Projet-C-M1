@@ -1,0 +1,13 @@
+#ifndef _lentille_h
+#define _lentille_h
+
+class lentille {
+  double Xlentille ;
+  double Ylentille;                  //Repérage lentille(pointM)  par ses coordonnées
+  double Dlentille;                    //distance lentille-observateur;
+  double Mlentille;                    //Masse lentille
+
+
+  void initialise (double masse,double abcisse, double ordonnée, double distance);
+
+  
